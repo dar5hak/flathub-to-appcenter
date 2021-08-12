@@ -1,0 +1,25 @@
+{
+  "name": "flathub-to-appcenter",
+  "version": "1.0.0",
+  "description": "Convert Flathub manifests to elementary OS AppCenter manifests",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flatpak",
+    "flathub",
+    "elementary",
+    "appcenter"
+  ],
+  "author": "Darshak Parikh",
+  "license": "0BSD",
+  "dependencies": {
+    "got": "^11.8.2",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
